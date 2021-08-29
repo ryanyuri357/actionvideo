@@ -1,8 +1,12 @@
-const Joi = require("joi");
+// Import
 const express = require("express");
 const app = express();
+const Joi = require("joi");
 
+// Middleware
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static("public"));
 
 const genres = [
   { id: 1, name: "Science Fiction" },
@@ -10,6 +14,11 @@ const genres = [
   { id: 3, name: "Comedy" },
   { id: 4, name: "Drama" },
 ];
+
+// Home
+app.get("/", (req, res) => {
+  res.send("Action Video");
+});
 
 // GET genres
 app.get("/api/genres", (req, res) => {
