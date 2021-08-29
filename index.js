@@ -13,9 +13,9 @@ app.use(express.json());
 app.use("/api/genres", genres);
 
 // Home
-// app.get("/", (req, res) => {
-//   res.send("Action Video");
-// });
+app.get("/", (req, res) => {
+  res.send("Action Video");
+});
 
 // Listener
 const port = process.env.PORT || 3000;
