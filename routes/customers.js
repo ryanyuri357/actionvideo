@@ -106,6 +106,7 @@ function validateCustomer(customer) {
   };
 
   return Joi.validate(customer, schema);
+  //done
 }
 
 module.exports = router;
