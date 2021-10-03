@@ -6,6 +6,7 @@
 const mongoose = require("mongoose");
 //const Joi = require("joi");
 const genres = require("./routes/genres");
+const customers = require("./routes/customers");
 const express = require("express");
 const app = express();
 
@@ -18,6 +19,7 @@ mongoose
 // Middleware
 app.use(express.json());
 app.use("/api/genres", genres);
+app.use("/api/customers", customers);
 
 // Home
 app.get("/", (req, res) => {
