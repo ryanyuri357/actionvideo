@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
-//const Joi = require("joi");
+const Joi = require("joi");
 
 // // Schema for Genres
 // const genreSchema = new mongoose.Schema({
@@ -16,10 +16,9 @@ const router = express.Router();
 // });
 
 // Model for Genres + Schema ^
-const Genre = new mongoose.model(
+const Genre = mongoose.model(
   "Genre",
   new mongoose.Schema({
-    //stuff
     name: {
       type: String,
       required: true,
@@ -66,22 +65,22 @@ router.put("/:id", async (req, res) => {
 });
 
 // DELETE genre
-router.delete("/:id", (req, res) => {
-  const genre = genres.find((c) => c.id === parseInt(req.params.id));
+router.delete("/:id", async (req, res) => {
+  const genre = await Genre.findByIdAndRemove(req.params.id);
+
   if (!genre)
     return res.status(404).send("The genre with the given ID was not found.");
-
-  const index = genres.indexOf(genre);
-  genres.splice(index, 1);
 
   res.send(genre);
 });
 
 // GET genre
-router.get("/:id", (req, res) => {
-  const genre = genres.find((c) => c.id === parseInt(req.params.id));
+router.get("/:id", async (req, res) => {
+  const genre = await Genre.findById(req.params.id);
+
   if (!genre)
     return res.status(404).send("The genre with the given ID was not found.");
+
   res.send(genre);
 });
 
