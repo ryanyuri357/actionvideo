@@ -1,17 +1,37 @@
+// Import
+const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
-const Joi = require("joi");
+//const Joi = require("joi");
 
-// Genres Object Array (for dev)
-const genres = [
-  { id: 1, name: "Science Fiction" },
-  { id: 2, name: "Action" },
-  { id: 3, name: "Comedy" },
-  { id: 4, name: "Drama" },
-];
+// // Schema for Genres
+// const genreSchema = new mongoose.Schema({
+//   //stuff
+//   name: {
+//     type: String,
+//     required: true,
+//     minlength: 5,
+//     maxlength: 50,
+//   },
+// });
+
+// Model for Genres + Schema ^
+const Genre = new mongoose.model(
+  "Genre",
+  new mongoose.Schema({
+    //stuff
+    name: {
+      type: String,
+      required: true,
+      minlength: 5,
+      maxlength: 50,
+    },
+  })
+);
 
 // GET genres
-router.get("/", (req, res) => {
+router.get("/", async (req, res) => {
+  const genres = await Genre.find().sort("name");
   res.send(genres);
 });
 

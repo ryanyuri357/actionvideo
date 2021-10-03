@@ -3,10 +3,17 @@
 ////////////////
 
 // Import
+const mongoose = require("mongoose");
 const Joi = require("joi");
 const genres = require("./routes/genres");
 const express = require("express");
 const app = express();
+
+// Connect to Mongo DB
+mongoose
+  .connect("mongodb://localhost/actionvideo")
+  .then(() => console.log("Connected to Mongo ActionVideo DB..."))
+  .catch((err) => console.log("Could not connect to Mongo ActionVideo DB!!!"));
 
 // Middleware
 app.use(express.json());
