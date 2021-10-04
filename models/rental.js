@@ -1,3 +1,5 @@
+// !!! CHANGE TO DOWNLOAD ??? //
+
 const Joi = require("joi");
 const mongoose = require("mongoose");
 
@@ -12,10 +14,12 @@ const Rental = mongoose.model(
           minlength: 5,
           maxlength: 50,
         },
+        // ??? change
         isGold: {
           type: Boolean,
           default: false,
         },
+        // ??? change
         phone: {
           type: String,
           required: true,
