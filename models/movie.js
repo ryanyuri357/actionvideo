@@ -16,14 +16,14 @@ const Movie = mongoose.model(
       type: genreSchema,
       required: true,
     },
-    // !!! CHANGE ATTRIBUTE TO: 'size' in GB - keep type (int) ???
+    // !!! CHANGE ATTRIBUTE: 'numberInStock' -> 'size' in GB - keep type (int) ???
     numberInStock: {
       type: Number,
       required: true,
       min: 0,
       max: 255,
     },
-    // !!! CHANGE ATTRIBUTE TO: 'quality' a String - change type (int -> String) ???
+    // !!! CHANGE ATTRIBUTE: 'dailyRentalRate' -> 'quality' a String - change type (int -> String) ???
     dailyRentalRate: {
       type: Number,
       required: true,
