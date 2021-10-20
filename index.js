@@ -3,6 +3,7 @@
 ////////////////
 
 // Import
+const config = require("config");
 const Joi = require("joi");
 Joi.objectId = require("joi-objectid")(Joi);
 const mongoose = require("mongoose");
@@ -15,6 +16,10 @@ const auth = require("./routes/auth");
 const express = require("express");
 const app = express();
 
+if (!config.get("jwtPrivateKey")) {
+  console.log("FATAL ERROR: jwtPrivateKey is not defined.");
+  process.exit(1);
+}
 // Connect to Mongo DB
 mongoose
   .connect("mongodb://localhost/actionvideo")
