@@ -1,10 +1,20 @@
 // Import
+const auth = require("../middleware/auth");
+const jwt = require("jsonwebtoken");
+const config = require("config");
 const bcrypt = require("bcrypt");
 const _ = require("lodash");
 const { User, validate } = require("../models/user");
 const mongoose = require("mongoose");
 const express = require("express");
 const router = express.Router();
+
+// GET
+router.get("/me", auth, async (req, res) => {
+  //code block
+  const user = await User.findById(req.user._id).select("-password");
+  res.send(user);
+});
 
 // POST User
 router.post("/", async (req, res) => {
@@ -19,7 +29,10 @@ router.post("/", async (req, res) => {
   user.password = await bcrypt.hash(user.password, salt);
   await user.save();
 
-  res.send(_.pick(user, ["_id", "name", "email"]));
+  const token = user.generateAuthToken();
+  res
+    .header("x-auth-token", token)
+    .send(_.pick(user, ["_id", "name", "email"]));
 });
 
 module.exports = router;
