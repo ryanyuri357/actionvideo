@@ -5,3 +5,8 @@
 {"level":"error","message":"something failed during startup"}
 {"level":"error","message":"something failed during startup"}
 {"level":"error","message":"Could not get the genres."}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"name":"MongoNetworkError","message":"failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16) {\n  name: 'MongoNetworkError'\n}]","level":"error"}
+{"name":"MongoNetworkError","message":"failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16) {\n  name: 'MongoNetworkError'\n}]","level":"error"}
+{"name":"MongoNetworkError","message":"failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16) {\n  name: 'MongoNetworkError'\n}]","level":"error"}
