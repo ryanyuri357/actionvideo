@@ -4,6 +4,8 @@
 
 // Import
 require("express-async-errors");
+const winston = require("winston");
+require("winston-mongodb");
 const error = require("./middleware/error");
 const config = require("config");
 const Joi = require("joi");
@@ -17,6 +19,36 @@ const users = require("./routes/users");
 const auth = require("./routes/auth");
 const express = require("express");
 const app = express();
+
+process.on("uncaughtException", (ex) => {
+  console.log("ENCOUNTERED UNCAUGHT EXCEPTION");
+  winston.error(ex.message, ex);
+  process.exit(1);
+});
+
+// winston.handleExceptions(
+//   new winston.transports.File({ filename: "uncaughtExceptions.log" })
+// );
+
+process.on("unhandledRejection", (ex) => {
+  console.log("ENCOUNTERED UNHANDLED REJECTION");
+  winston.error(ex.message, ex);
+  process.exit(1);
+});
+
+winston.add(new winston.transports.File({ filename: "logfile.log" }));
+winston.add(
+  new winston.transports.MongoDB({
+    db: "mongodb://localhost/actionvideo",
+    collections: "errorlogs",
+    level: "info",
+  })
+);
+
+// debug testing
+// throw new Error("something failed during startup");
+// const p = Promise.reject(new Error("Unhandled Promise = Epic FAIL!"));
+// p.then(() => console.log("done"));
 
 if (!config.get("jwtPrivateKey")) {
   console.log("FATAL ERROR: jwtPrivateKey is not defined.");

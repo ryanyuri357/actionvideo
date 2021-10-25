@@ -21,6 +21,8 @@
     "lodash": "^4.17.4",
     "mongoose": "^5.0.2",
     "nodemon": "^2.0.12",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "winston": "^3.0.0",
+    "winston-mongodb": "^5.0.7"
   }
 }
