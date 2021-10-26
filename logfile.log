@@ -10,3 +10,31 @@
 {"name":"MongoNetworkError","message":"failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16) {\n  name: 'MongoNetworkError'\n}]","level":"error"}
 {"name":"MongoNetworkError","message":"failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16) {\n  name: 'MongoNetworkError'\n}]","level":"error"}
 {"name":"MongoNetworkError","message":"failed to connect to server [localhost:27017] on first connect [Error: connect ECONNREFUSED 127.0.0.1:27017\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16) {\n  name: 'MongoNetworkError'\n}]","level":"error"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T19:57:28.035Z"}
+{"level":"info","message":"Connected to Mongo ActionVideo DB...","timestamp":"2021-10-26T19:57:28.064Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T19:58:45.257Z"}
+{"level":"info","message":"Connected to Mongo ActionVideo DB...","timestamp":"2021-10-26T19:58:45.319Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T19:59:14.779Z"}
+{"level":"info","message":"Connected to Mongo ActionVideo DB...","timestamp":"2021-10-26T19:59:14.807Z"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"message":"Listening on port 5000...","level":"info"}
+{"message":"Connected to Mongo ActionVideo DB...","level":"info"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:05:38.334Z"}
+{"level":"info","message":"Connected to Mongo ActionVideo DB...","timestamp":"2021-10-26T20:05:38.371Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:09:29.295Z"}
+{"level":"info","message":"Connected to Mongo ActionVideo DB...","timestamp":"2021-10-26T20:09:29.324Z"}
