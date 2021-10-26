@@ -38,3 +38,110 @@
 {"level":"info","message":"Connected to Mongo ActionVideo DB...","timestamp":"2021-10-26T20:05:38.371Z"}
 {"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:09:29.295Z"}
 {"level":"info","message":"Connected to Mongo ActionVideo DB...","timestamp":"2021-10-26T20:09:29.324Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:29:08.669Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T20:29:08.700Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:31:05.539Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T20:31:05.563Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:35:11.369Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T20:35:11.417Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:48:01.828Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T20:48:01.873Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:48:27.592Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T20:48:27.642Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:51:00.774Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T20:51:00.814Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T20:51:46.842Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T20:51:46.890Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:03:16.503Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:03:16.549Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:03:38.474Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:03:38.524Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:05:13.137Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:05:13.182Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:05:23.611Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:05:23.659Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:06:05.777Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:06:05.804Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:06:55.512Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:06:55.543Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:09:22.465Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:09:22.518Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:12:07.036Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:12:07.071Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:12:19.640Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:12:19.693Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:12:43.927Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:12:43.973Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:15:45.895Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:15:45.938Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:21:38.901Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:21:38.955Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:21:59.691Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:21:59.732Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:22:37.716Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:22:37.760Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:26:27.485Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:26:27.530Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:31:51.942Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:31:51.967Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:32:58.477Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T21:32:58.499Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:34:05.953Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:34:05.983Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:41:10.189Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:41:10.237Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:42:45.206Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:42:45.266Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:44:34.457Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T21:44:34.504Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType.applySetters (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schematype.js:701:12)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schematype.js:1072:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schematype.js:1041:15)\n    at cast (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\query.js:3133:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\query.js:1269:10)\n    at model.Query.Object.<anonymous>.Query._findOne (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\query.js:1485:8)\n    at C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\kareem\\index.js:276:8\n    at C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\kareem\\index.js:23:7\n    at processTicksAndRejections (internal/process/task_queues.js:77:11)","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","level":"error","timestamp":"2021-10-26T21:44:34.602Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:46:37.167Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T21:46:37.225Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:47:52.672Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T21:47:52.726Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:48:52.349Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T21:48:52.373Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:50:44.669Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T21:50:44.693Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:50:55.425Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T21:50:55.466Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T21:57:31.192Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T21:57:31.250Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at new CastError (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\error\\cast.js:27:11)\n    at ObjectId.Object.<anonymous>.ObjectId.cast (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schema\\objectid.js:158:13)\n    at ObjectId.Object.<anonymous>.SchemaType.applySetters (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schematype.js:701:12)\n    at ObjectId.Object.<anonymous>.SchemaType._castForQuery (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schematype.js:1072:15)\n    at ObjectId.Object.<anonymous>.ObjectId.castForQuery (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schema\\objectid.js:198:15)\n    at ObjectId.Object.<anonymous>.SchemaType.castForQueryWrapper (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schematype.js:1041:15)\n    at cast (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\cast.js:269:32)\n    at model.Query.Object.<anonymous>.Query.cast (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\query.js:3133:12)\n    at model.Query.Object.<anonymous>.Query._castConditions (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\query.js:1269:10)\n    at model.Query.Object.<anonymous>.Query._findOne (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\query.js:1485:8)\n    at C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\kareem\\index.js:276:8\n    at C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\kareem\\index.js:23:7\n    at processTicksAndRejections (internal/process/task_queues.js:77:11)\nFrom previous event:\n    at Object.promiseOrCallback (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\utils.js:221:10)\n    at model.Query.exec (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\query.js:2948:16)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\query.js:2975:15)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)","name":"CastError","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","__stackCleaned__":true,"level":"error","timestamp":"2021-10-26T21:57:31.347Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:03:35.602Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:03:35.655Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:09:15.419Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:09:15.483Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:21:06.050Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:21:06.111Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:48:07.647Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:48:07.717Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:49:34.286Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:49:34.336Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:52:18.462Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:52:18.545Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:55:55.887Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:55:55.939Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:56:37.623Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:56:37.683Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:58:14.746Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:58:14.774Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:58:36.153Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-26T22:58:36.180Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T22:58:53.547Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T22:58:53.575Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T23:04:11.916Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T23:04:11.965Z"}
+{"message":"Genre validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","errors":{"name":{"message":"Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).","name":"ValidatorError","properties":{"message":"Path `{PATH}` (`{VALUE}`) is longer than the maximum allowed length (50).","type":"maxlength","maxlength":50,"path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"},"kind":"maxlength","path":"name","value":"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa","$isValidatorError":true}},"_message":"Genre validation failed","stack":"ValidationError: Genre validation failed: name: Path `name` (`aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa`) is longer than the maximum allowed length (50).\n    at new ValidationError (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\error\\validation.js:27:11)\n    at model.Object.<anonymous>.Document.invalidate (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\document.js:1656:32)\n    at C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\document.js:1528:17\n    at Immediate.<anonymous> (C:\\Users\\Locutus\\Code\\nodejs2021\\actionvideo\\node_modules\\mongoose\\lib\\schematype.js:785:9)\n    at processImmediate (internal/timers.js:464:21)","name":"ValidationError","level":"error","timestamp":"2021-10-26T23:04:12.142Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T23:05:26.934Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T23:05:26.986Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T23:12:38.230Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T23:12:38.279Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T23:15:51.449Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T23:15:51.516Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T23:36:49.389Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T23:36:49.439Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T23:38:35.746Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T23:38:35.778Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-26T23:38:52.221Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo_test ...","timestamp":"2021-10-26T23:38:52.277Z"}

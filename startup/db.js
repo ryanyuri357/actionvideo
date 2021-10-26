@@ -1,9 +1,11 @@
 const winston = require("winston");
 const mongoose = require("mongoose");
+const config = require("config");
 
 // Connect to Mongo DB
 module.exports = function () {
+  const db = config.get("db");
   mongoose
-    .connect("mongodb://localhost/actionvideo")
-    .then(() => winston.info("Connected to Mongo ActionVideo DB..."));
+    .connect(db)
+    .then(() => winston.info(`Connected to Mongo DB: ${db} ...`));
 };
