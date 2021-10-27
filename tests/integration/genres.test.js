@@ -14,6 +14,7 @@ describe("/api/genres", () => {
     await Genre.remove({});
   });
 
+  // GET  tests
   describe("GET /", () => {
     it("should return all genres", async () => {
       await Genre.collection.insertMany([
@@ -22,12 +23,13 @@ describe("/api/genres", () => {
       ]);
 
       const res = await request(server).get("/api/genres");
-      //expect(res.status).toBe(200);
-      expect(res.body.length).toBe(2);
-      //expect(res.body.some((g) => g.name === "genre1")).toBeTruthy();
+      expect(res.status).toBe(200);
+      //expect(res.body.length).toBe(2);
+      expect(res.body.some((g) => g.name === "genre1")).toBeTruthy();
     });
   });
 
+  // GET w/ ID tests
   describe(" GET /:id", () => {
     it("should return genre if valid ID is passed", async () => {
       const genre = new Genre({ name: "genre1" });
@@ -44,8 +46,16 @@ describe("/api/genres", () => {
 
       expect(res.status).toBe(404);
     });
+
+    it("should return 404 if no genre with the given id exist", async () => {
+      const id = mongoose.Types.ObjectId();
+      const res = await request(server).get("/api/genres/" + id);
+
+      expect(res.status).toBe(404);
+    });
   });
 
+  // POST tests
   describe("POST /", () => {
     // refactor pattern:
     // Define the happy path, then in each test we change 1 param
