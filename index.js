@@ -10,6 +10,7 @@ require("./startup/routes")(app);
 require("./startup/db")();
 require("./startup/config")();
 require("./startup/validation");
+require("./startup/prod")(app);
 
 // throw new Error("something failed during startup");
 
