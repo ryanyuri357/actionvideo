@@ -17,6 +17,7 @@ router.get("/", async (req, res) => {
 
 // POST genre
 router.post("/", auth, async (req, res) => {
+  // validate with Joi
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
