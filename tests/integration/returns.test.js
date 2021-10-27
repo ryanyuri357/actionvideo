@@ -1,7 +1,7 @@
 const { Rental } = require("../../models/rental");
 const mongoose = require("mongoose");
 
-describe("/ape/returns", () => {
+describe("/api/returns", () => {
   let server;
   let customerId;
   let movieId;
