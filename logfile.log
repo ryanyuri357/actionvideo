@@ -874,3 +874,5 @@
 {"level":"info","message":"Connected to Mongo DB: mongodb://localhost/vidly ...","timestamp":"2021-10-28T03:52:45.271Z"}
 {"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-28T03:54:05.582Z"}
 {"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-28T03:54:05.608Z"}
+{"level":"info","message":"Listening on port 5000...","timestamp":"2021-10-28T17:13:43.458Z"}
+{"level":"info","message":"Connected to Mongo DB: mongodb://localhost/actionvideo ...","timestamp":"2021-10-28T17:13:43.482Z"}
