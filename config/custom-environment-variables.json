@@ -1,3 +1,4 @@
 {
-  "jwtPrivateKey": "actionvideo_jwtPrivateKey"
+  "jwtPrivateKey": "actionvideo_jwtPrivateKey",
+  "db": "actionvideo_db"
 }
