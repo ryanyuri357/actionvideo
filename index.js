@@ -1,6 +1,7 @@
 //  Action Video - Node.js API //
 
 // Import
+// const swaggerUi = require("swagger-ui-express");
 const winston = require("winston");
 const express = require("express");
 const app = express();
