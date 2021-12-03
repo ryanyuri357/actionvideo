@@ -22,7 +22,7 @@ x-auth-token
 
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTcwYjJlODZlMjY3YTI5ZmMxZjBlNzEiLCJpYXQiOjE2MzQ3NzU3ODR9.iSK9Pt_PLfqKJ8NDdCahwqnR91cv7xl4aRAgkioCiS8
 
-## API base URL hosted on Heroku + Routes (Suggest Postman for full API testing)::
+## API base URL + Routes (Suggest Postman for API testing):
 https://action-video-api.herokuapp.com/api
 
 ### ROUTES:
