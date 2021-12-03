@@ -59,9 +59,9 @@ GET	/movies/{movieId}
 
 ### rentals
 
-GET:	/rentals	 🔒
+GET:	/rentals	
 
-POST:	/rentals	 🔒
+POST:	/rentals	
 
 
 
