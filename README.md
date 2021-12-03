@@ -1,11 +1,15 @@
 # Action Video - Restful API for managing video rentals
+
 ## JavaScript/ES6+, Node.js + Express, MongoDB
+
 ### Manage movies, rentals, returns, users, customers and genres
-### Unit + Integration testing with Jest framework.
+
 ### Authentication with JWT and role based authorization. 
+
 ### Unit + Integration testing with Jest framework.
 
 ## API documentation PDF:
+
 https://www.dropbox.com/s/d98iwkx58tvl9qn/Action%20Video%20API%20Documentation.pdf?dl=0
 
 
